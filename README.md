@@ -11,6 +11,11 @@ Currently using this tool you can generate typescript types based on data provid
 
 ## Configurations
 
+### Branches
+
+- Dev branch `staging`
+- Production branch `master`
+
 ### Naming Convention
 
 - kabab-case
