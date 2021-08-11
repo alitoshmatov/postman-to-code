@@ -25,7 +25,7 @@ export interface Api {
   response: Response[];
 }
 
-interface Request {
+export interface Request {
   // auth
   //header
   method: Method;
@@ -33,7 +33,7 @@ interface Request {
   url: Url;
 }
 
-interface Response {
+export interface Response {
   //originalRequest
   // _postman_previewlanguage
   // header
