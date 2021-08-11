@@ -64,14 +64,25 @@ const Home: React.FC<props> = () => {
     <Container>
       <HomeWrapper>
         <Column>
-          <iframe
-            src="https://ghbtns.com/github-btn.html?user=alitoshmatov2001&repo=postman-to-code&type=star&count=true&size=large"
-            frameBorder="0"
-            scrolling="0"
-            width="170"
-            height="30"
-            title="GitHub"
-          ></iframe>
+          <Row>
+            <iframe
+              src="https://ghbtns.com/github-btn.html?user=alitoshmatov2001&repo=postman-to-code&type=star&count=true&size=large"
+              frameBorder="0"
+              scrolling="0"
+              width="170"
+              height="30"
+              title="GitHub"
+            ></iframe>
+            <p>
+              This site is running in beta mode, feel free to open issues on{" "}
+              <a
+                href="https://github.com/alitoshmatov/postman-to-code/issues"
+                target="_blank"
+              >
+                github repository
+              </a>
+            </p>
+          </Row>
           <Title style={{ marginBottom: 20 }}>
             Postman json data to typescript types
           </Title>
